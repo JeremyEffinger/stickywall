@@ -39,6 +39,12 @@ var testData = [
     title: "Render sticky",
     status: "finished",
   },
+  {
+    id: 10,
+    text: "Make notes draggable",
+    title: "Add Drag features",
+    status: "to-do",
+  },
 ];
 
 class Column extends React.Component {
@@ -68,6 +74,17 @@ class Column extends React.Component {
   }
   render() {
     return this.renderNote(this.data);
+  }
+}
+
+class Sticky extends Column {
+  constructor(props) {
+    this.data = this.props.data;
+  }
+
+  renderNote(stickies) {}
+  render() {
+    return null;
   }
 }
 
