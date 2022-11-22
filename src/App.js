@@ -29,7 +29,7 @@ var testData = [
     title: "Column class",
     status: "in progress",
   },
-  { id: 5, text: "give presentation", title: "Presentation", status: "to-do" },
+  { id: 5, text: "give presentation", title: "Present", status: "to-do" },
   { id: 6, text: "Create test data", title: "test data", status: "finished" },
   { id: 7, text: "Add interactivity", title: "Events", status: "to-do" },
 ];
